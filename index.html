@@ -56,12 +56,12 @@
      </div><button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="bg-black text-white px-6 py-2 text-sm font-medium hover:bg-gray-800 transition"> Get In Touch </button>
     </div>
    </nav><!-- Hero Section -->
-   <section id="about" class="min-h-[calc(100vh-64px)] flex items-center pt-0 px-0 bg-white">
+   <section id="about" class="min-h-[calc(100vh)] flex items-center pt-0 px-0 bg-white">
     <div class="max-w-7xl mx-auto w-full grid md:grid-cols-2 gap-6= items-center">
      <div class="space-y-6">
       <h1 id="hero-name" class="text-[65px] md:text-[75px] font-bold text-black">Lakhan Vyas </h1>
       <h2 id="hero-title" class="text-2xl md:text-3xl text-gray-700 font-">Freelancer & Creator</h2>
-      <p id="hero-intro" class="text-gray-600 text-lg leading-relaxed"> Passionate freelancer who loves to make content to introduce products or services to the right people digitally. And love to make clients satisfied and feel their excitement during the whole process. Able to evaluate campaigns result and manage the creative  work and schedules. Versatile Content Creator specializing in Filmmaking, Video Editing, Cinematogaphy  and Social Media Manager. </p>
+      <p id="hero-intro" class="text-gray-600 text-lg leading-relaxed"> Passionate freelancer who loves to make content to introduce products or services to the right people digitally. And love to make clients satisfied and feel their excitement during the whole process. Able to evaluate campaigns result and manage the creative  work and schedules. Versatile Content Creator specializing in Filmmaking, Video Editing, Cinematography  and Social Media Manager. </p>
       <div class="flex space-x-4 pt-4"><button onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})" class="bg-black text-white px-8 py-3 font-medium hover:bg-gray-800 transition"> View My Work </button> <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})" class="border-2 border-black px-8 py-3 font-medium hover:bg-black hover:text-white transition"> Contact Me </button>
       </div>
      </div>
@@ -117,8 +117,8 @@
         </svg>
        </div>
        <h3 class="text-xl font-semibold mb-3 text-black">Filmmaking</h3>
-       <p class="text-gray-700 mb-4">Worked as an Assisitant Director & Writter</p>
-       <p class="text-gray-500 text-sm">Creative Vision, Post Proudction</p>
+       <p class="text-gray-700 mb-4">Worked as an Assistant Director & Writer</p>
+       <p class="text-gray-500 text-sm">Creative Vision, Post Production</p>
       </div><!-- Social Media -->
       <div class="bg-white border-2 border-black p-8 card-hover">
        <div class="w-12 h-12 bg-black rounded-lg flex items-center justify-center mb-4">
@@ -445,6 +445,14 @@
      <p class="project-description">It was my upcoming short film project as an Director & Writer. (Title was released on Youtube)</p><a href="https://youtu.be/5ay_Y1NTcPQ?si=5kRd1z76rqDSrdSQ" class="project-btn" target="_blank" rel="noopener noreferrer">Click Here to View →</a>
     </article><!-- Social Media Management Projects -->
     <article class="project-card hidden" data-category="social-media">
+     <div class="thumbnail-wrapper" data-thumbnail="finance"></div>
+     <div class="category-label">
+      SOCIAL MEDIA MANAGEMENT
+     </div>
+     <h2 class="project-title">Finance Page</h2>
+     <p class="project-description">building a finance brand to gain leads for consultancy</p><a href=" https://www.instagram.com/gst.in.tax/#" class="project-btn" target="_blank" rel="noopener noreferrer">Click Here to View →</a>
+    </article>
+    <article class="project-card hidden" data-category="social-media">
      <div class="thumbnail-wrapper" data-thumbnail="bakery"></div>
      <div class="category-label">
       SOCIAL MEDIA MANAGEMENT
@@ -522,11 +530,12 @@
       'commercial': 'https://img.freepik.com/premium-vector/photo-studio-concept-isolated-photographer-makes-photo-session-posing-man-model-people-scene-flat-cartoon-design-vector-illustration-blogging-website-mobile-app-promotional-materials_9209-6540.jpg',
       
       // Filmmaking Projects
-      'ticket': 'https://www.swadeshnews.in/h-upload/2022/03/27/681708-ticket-poster.webp',
+      'ticket': './ticket.jpeg',
       'covid': 'https://i.ytimg.com/vi/5ay_Y1NTcPQ/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDjEmFCmvdlUCMJGSC7VsC0fRTBRg',
       
       // Social Media Projects
-      'bakery': 'https://img.freepik.com/premium-vector/social-media-marketing-concept-man-using-social-networking-smm-management-online-advertising-vector-illustration-flat_186332-824.jpg',
+      'bakery': './bakery.jpeg',
+      'finance':'./finance.jpeg',
     };
     
     // ========================================
